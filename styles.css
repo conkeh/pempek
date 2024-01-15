@@ -9,6 +9,9 @@ body {
   color: white;
   font-family: anton;
 }
+header {
+  text-align: center;
+}
 .container {
   padding-top: 50px;
 }
@@ -22,8 +25,14 @@ h1 {
   width: 400px;
   font-size: 150px;
 }
-
+.boxkanan {
+  transform: rotate(10deg);
+}
 @media screen and (max-width: 767px) {
+  header {
+    justify-content: center;
+    width: 10px;
+  }
   .container {
   }
   h1 {
@@ -33,5 +42,8 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .boxkanan {
+    transform: rotate(0deg);
   }
 }
