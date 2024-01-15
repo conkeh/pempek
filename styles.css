@@ -12,6 +12,9 @@ body {
 header {
   text-align: center;
 }
+.container-scroll-right {
+  font-size: 40px;
+}
 .container {
   padding-top: 50px;
 }
@@ -28,6 +31,7 @@ h1 {
 .boxkanan {
   transform: rotate(10deg);
 }
+
 @media screen and (max-width: 767px) {
   header img {
     width: 150px;
