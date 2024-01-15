@@ -31,7 +31,24 @@ h1 {
 .boxkanan {
   transform: rotate(10deg);
 }
-
+.container-menu {
+  font-family: roboto, arial;
+}
+.menu {
+  width: 500px;
+  background-color: rgb(72, 68, 68);
+}
+.menu li {
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+li {
+  list-style: none;
+}
 @media screen and (max-width: 767px) {
   header img {
     width: 150px;
@@ -50,5 +67,8 @@ h1 {
   }
   .boxkanan {
     transform: rotate(0deg);
+  }
+  .menu {
+    width: 300px;
   }
 }
