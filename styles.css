@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  margin: 50px;
+  margin: 10px;
   background-color: rgb(29, 16, 124);
   color: white;
   font-family: anton;
+  text-decoration: none;
 }
 header {
   text-align: center;
@@ -55,7 +56,7 @@ li {
     justify-content: center;
   }
   .container {
-    grid-template-columns: auto;
+    width: 1vr;
   }
   h1 {
     font-size: 80px;
@@ -71,5 +72,6 @@ li {
   }
   .menu {
     width: 300px;
+    margin: auto;
   }
 }
