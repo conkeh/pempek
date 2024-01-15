@@ -37,6 +37,7 @@ h1 {
   }
   h1 {
     font-size: 80px;
+    text-align: center;
   }
   .content1 {
     flex-direction: column;
