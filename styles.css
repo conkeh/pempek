@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  margin: 10px;
   background-color: rgb(29, 16, 124);
   color: white;
   font-family: anton;
@@ -34,12 +33,30 @@ h1 {
 }
 .container-menu {
   font-family: roboto, arial;
+  background-color: aliceblue;
+  padding: 30px;
+  margin-top: 30px;
+}
+.judul {
+  color: rgb(72, 68, 68);
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
 }
 .menu {
   width: 500px;
   background-color: rgb(72, 68, 68);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 30px;
 }
 .menu li {
+  display: flex;
+  justify-content: space-between;
+}
+.menu p {
   display: flex;
   justify-content: space-between;
 }
@@ -56,7 +73,6 @@ li {
     justify-content: center;
   }
   .container {
-    width: 1vr;
   }
   h1 {
     font-size: 80px;
@@ -71,7 +87,6 @@ li {
     transform: rotate(0deg);
   }
   .menu {
-    width: 300px;
-    margin: auto;
+    width: 400px;
   }
 }
