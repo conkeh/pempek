@@ -9,7 +9,6 @@ body {
   color: white;
   font-family: anton;
   text-decoration: none;
-  overflow: hidden;
 }
 header {
   text-align: center;
@@ -77,6 +76,7 @@ li {
   .container {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   h1 {
     font-size: 80px;
@@ -84,7 +84,6 @@ li {
   }
   .content1 {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
   .boxkanan {
