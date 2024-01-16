@@ -73,7 +73,7 @@ li {
     justify-content: center;
   }
   .container-menu {
-    width: 1vr;
+    width: 100%S;
     flex-direction: column;
   }
   h1 {
@@ -90,8 +90,5 @@ li {
   }
   .menu {
     width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+   
 }
