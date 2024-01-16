@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  margin: 20px;
   background-color: rgb(29, 16, 124);
   color: white;
   font-family: anton;
@@ -72,11 +71,11 @@ li {
 @media screen and (max-width: 767px) {
   header img {
     width: 150px;
-    justify-content: center;
   }
-
   h1 {
+    width: 400px;
     font-size: 80px;
+    margin: auto;
     text-align: center;
   }
   .content1 {
@@ -84,6 +83,7 @@ li {
   }
   .boxkanan {
     transform: rotate(0deg);
+    margin: auto;
   }
   .menu {
     font-size: 20px;
