@@ -16,9 +16,7 @@ header {
 .container-scroll-right {
   font-size: 40px;
 }
-.container {
-  padding-top: 50px;
-}
+
 .content1 {
   display: flex;
   flex-direction: row;
