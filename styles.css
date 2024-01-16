@@ -73,6 +73,7 @@ li {
     justify-content: center;
   }
   .container {
+    width: 1vr;
   }
   h1 {
     font-size: 80px;
@@ -88,5 +89,6 @@ li {
   }
   .menu {
     width: 400px;
+    flex-direction: column;
   }
 }
