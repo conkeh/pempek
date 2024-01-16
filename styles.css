@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  margin: 20px;
   background-color: rgb(29, 16, 124);
   color: white;
   font-family: anton;
