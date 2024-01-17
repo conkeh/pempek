@@ -33,7 +33,7 @@ h1 {
 }
 .boxkanan {
   transform: rotate(10deg);
-  background-color: rgb(205, 188, 188);
+  background-color: rgb(31, 126, 14);
   width: 300px;
 }
 .container-menu {
@@ -91,7 +91,8 @@ li {
     align-items: center;
   }
   .content1 img {
-    width: 20px;
+    object-fit: contain;
+    max-width: 100%;
   }
   .boxkanan {
     transform: rotate(0deg);
