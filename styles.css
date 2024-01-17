@@ -8,6 +8,7 @@ body {
   color: white;
   font-family: anton;
   text-decoration: none;
+  max-width: 100%;
 }
 header {
   text-align: center;
@@ -69,10 +70,6 @@ li {
   list-style: none;
 }
 @media screen and (max-width: 767px) {
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
   header img {
     width: 150px;
   }
