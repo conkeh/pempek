@@ -82,7 +82,10 @@ footer {
 footer .venmo {
   width: 30px;
 }
-
+footer .zelle {
+  width: 30px;
+  margin-top: 20px;
+}
 @media screen and (max-width: 767px) {
   header img {
     width: 150px;
