@@ -38,7 +38,7 @@ h1 {
   font-family: roboto, arial;
   display: flex;
   flex-direction: column;
-  background-color: rgb(237, 233, 228);
+  background-color: rgb(33, 148, 236);
   align-items: center;
   margin-top: 50px;
   padding-top: 60px;
@@ -53,21 +53,25 @@ h1 {
 .menu {
   width: 900px;
   font-size: 30px;
-  background-color: rgb(72, 68, 68);
+  background-color: rgb(240, 231, 231);
   padding: 20px;
   margin-bottom: 30px;
 }
 .menu li {
   display: flex;
   justify-content: space-between;
+  color: black;
 }
 .menu p {
   display: flex;
   justify-content: space-between;
+  color: black;
 }
 h2 {
   margin-bottom: 20px;
   margin-top: 20px;
+  font-weight: 900;
+  color: coral;
 }
 li {
   list-style: none;
