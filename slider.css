@@ -1,6 +1,11 @@
 .galery {
   display: flex;
+  width: 100%;
+
   transition: 2s;
+}
+.galery img {
+  width: 100%;
 }
 .wrap {
   width: 500px;
