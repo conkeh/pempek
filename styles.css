@@ -80,55 +80,52 @@ h2 {
 li {
   list-style: none;
 }
-
-.galery {
-  display: flex;
-  transition: 2s;
-}
-.wrap {
+.container-slider {
   width: 500px;
-  margin: auto;
-  border-radius: 5px;
+  position: relative;
+  top: 280px;
+  left: 50%;
+  margin-bottom: 40px;
+  transform: translate(-50%, -50%);
   overflow: hidden;
+  border: 20px solid sandybrown;
+  border-radius: 8px;
 }
-#slide1:target ~ .galery {
-  margin-left: 0px;
+.wrapper {
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
 }
-#slide2:target ~ .galery {
-  margin-left: -100%;
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-200);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
 }
-#slide3:target ~ .galery {
-  margin-left: -200%;
+img {
+  width: 100%;
 }
-#slide4:target ~ .galery {
-  margin-left: -300%;
-}
-#slide5:target ~ .galery {
-  margin-left: -400%;
-}
-#slide6:target ~ .galery {
-  margin-left: -500px;
-}
-.navigation a {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  font-size: 0;
-  background-color: burlywood;
-  border-radius: 50px;
-  margin: 3px;
-}
-.navigation a:hover {
-  background-color: cadetblue;
-  transition: 1s;
-}
-.navigation {
-  position: absolute;
-  text-align: center;
-  left: 0;
-  right: 0;
-  margin-top: -50px;
-}
+
 @media screen and (max-width: 756px) {
   .wrap {
     width: 300px;
@@ -173,5 +170,12 @@ footer .zelle {
   .menu {
     font-size: 20px;
     width: 400px;
+  }
+  .container-slider {
+    width: 300px;
+    margin-top: -100px;
+  }
+  footer {
+    margin-top: 150px;
   }
 }
