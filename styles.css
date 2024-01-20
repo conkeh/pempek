@@ -137,7 +137,7 @@ footer .zelle {
     text-align: center;
   }
   .content1 {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
   .content1 img {
