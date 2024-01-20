@@ -145,6 +145,7 @@ footer .zelle {
     max-width: 80%;
   }
   .boxkanan {
+    width: 250px;
     transform: rotate(0deg);
   }
   .menu {
